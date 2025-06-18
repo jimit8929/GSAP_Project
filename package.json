@@ -2,7 +2,7 @@
   "name": "awwwards-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/jimit8929/GSAP_Project",
+  "homepage": "https://jimit8929.github.io/GSAP_Project",
   "type": "module",
   "scripts": {
     "dev": "vite",

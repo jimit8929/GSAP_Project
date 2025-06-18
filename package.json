@@ -2,16 +2,16 @@
   "name": "awwwards-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jimit8929.github.io/GSAP_Project",
+  "homepage": "https://github.com/jimit8929/GSAP_Project",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-      "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "vite",
-"build": "vite build"
+    "build": "vite build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

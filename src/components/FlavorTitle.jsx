@@ -14,6 +14,7 @@ const FlavorTitle = () => {
     gsap.from(firstTextSplit.chars, {
       yPercent: 200,
       stagger: 0.02,
+      opacity:0,
       ease: "power1.inOut",
       scrollTrigger: {
         trigger: ".flavor-section",
@@ -23,6 +24,7 @@ const FlavorTitle = () => {
 
     gsap.to(".flavor-text-scroll", {
       duration: 1,
+      opacity:1,
       clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
       scrollTrigger: {
         trigger: ".flavor-section",
@@ -33,6 +35,7 @@ const FlavorTitle = () => {
     gsap.from(secondTextSplit.chars, {
       yPercent: 200,
       stagger: 0.02,
+      opacity:0,
       ease: "power1.inOut",
       scrollTrigger: {
         trigger: ".flavor-section",

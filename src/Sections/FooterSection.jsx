@@ -8,7 +8,7 @@ const FooterSection = () => {
   return (
     <section className="footer-section">
       <img
-        src="dist/images/footer-dip.png"
+        src="/images/footer-dip.png"
         alt=""
         className="w-full object-cover -translate-y-1"
       />
@@ -22,12 +22,12 @@ const FooterSection = () => {
 
         {isMobile ? (
           <img
-            src="dist/images/footer-drink.png"
+            src="/images/footer-drink.png"
             className="absolute top-0 object-contain"
           />
         ) : (
           <video
-            src="dist/videos/splash.mp4"
+            src="/videos/splash.mp4"
             autoPlay
             playsInline
             muted
@@ -37,13 +37,13 @@ const FooterSection = () => {
 
         <div className="flex-center gap-5 relative z-10 md:mt-20 mt-5">
           <div className="social-btn">
-            <img src="dist/images/yt.svg" alt="" />
+            <img src="/images/yt.svg" alt="" />
           </div>
           <div className="social-btn">
-            <img src="dist/images/insta.svg" alt="" />
+            <img src="/images/insta.svg" alt="" />
           </div>
           <div className="social-btn">
-            <img src="dist/images/tiktok.svg" alt="" />
+            <img src="/images/tiktok.svg" alt="" />
           </div>
         </div>
 
@@ -75,7 +75,7 @@ const FooterSection = () => {
                 placeholder="Enter your email"
                 className="w-full placeholder:font-sans placeholder:text-[#999999]"
               />
-              <img src="dist/images/arrow.svg" alt="arrow" />
+              <img src="/images/arrow.svg" alt="arrow" />
             </div>
           </div>
         </div>

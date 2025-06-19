@@ -68,18 +68,18 @@ const HeroSection = () => {
           <>
             {isMobile && (
               <img
-                src="dist\images\hero-bg.png"
+                src="\images\hero-bg.png"
                 className="absolute bottom-40 size-full object-cover"
               />
             )}
             <img
-              src="dist\images\hero-img.png"
+              src="\images\hero-img.png"
               className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto"
             />
           </>
         ) : (
           <video
-            src="dist\videos\hero-bg.mp4"
+            src="\videos\hero-bg.mp4"
             autoPlay
             muted
             playsInline

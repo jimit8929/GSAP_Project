@@ -58,7 +58,7 @@ const HeroSection = () => {
       scale: 0.9,
       yPercent: 30,
       ease: "power1.inOut",
-    });
+    },"-=2");
   });
 
   return (

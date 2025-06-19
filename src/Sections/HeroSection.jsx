@@ -53,12 +53,17 @@ const HeroSection = () => {
         scrub: true,
       },
     });
-    heroTl.to(".hero-container", {
-      rotate: 7,
-      scale: 0.9,
-      yPercent: 30,
-      ease: "power1.inOut",
-    },"-=2");
+    heroTl.to(
+      ".hero-container",
+      {
+        duration: 1.3,
+        rotate: 5, 
+        scale: 0.9,
+        yPercent: 20,
+        ease: "power2.inOut",
+      },
+      "-=2"
+    );
   });
 
   return (

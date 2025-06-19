@@ -67,7 +67,7 @@ const MessageSection = () => {
   });
 
   return (
-    <section className="message-content text-2xl">
+    <section className="message-content">
       <div className="container mx-auto flex-center py-28 relative">
         <div className="w-full h-full">
           <div className="msg-wrapper">
@@ -90,8 +90,8 @@ const MessageSection = () => {
           </div>
 
           <div className="flex-center md:mt-20 mt-10">
-            <div className="w-130 px-8 flex-center">
-              <p>
+            <div className="max-w-lg px-10 flex-center ">
+              <p className="text-3xl">
                 Rev up your rebel spirit and feed the adventure of life with
                 SPYLT, where you’re one chug away from epic nostalgia and
                 fearless fun.

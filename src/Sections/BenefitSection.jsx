@@ -10,32 +10,32 @@ const BenefitSection = () => {
       scrollTrigger: {
         trigger: ".benefit-section",
         start: "top 60%",
-        end: "top top",
+        end: "center center",
         scrub: 1.5,
       },
     });
 
     revealTl
       .to(".benefit-section .first-title", {
-        duration: 1,
+        duration: 0.8,
         opacity: 1,
         clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
         ease: "circ.out",
       })
       .to(".benefit-section .second-title", {
-        duration: 1,
+        duration: 0.8,
         opacity: 1,
         clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
         ease: "circ.out",
       })
       .to(".benefit-section .third-title", {
-        duration: 1,
+        duration: 0.8,
         opacity: 1,
         clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
         ease: "circ.out",
       })
       .to(".benefit-section .fourth-title", {
-        duration: 1,
+        duration: 0.8,
         opacity: 1,
         clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
         ease: "circ.out",

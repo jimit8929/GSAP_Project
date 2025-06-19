@@ -1,6 +1,6 @@
 # GSAP Animation Practice Project - Spylt.com Clone
 
-![Preview](public\images\Website_Preview.png)
+![Preview](.\public\images\Website_Preview.png)
 
 ---
 
